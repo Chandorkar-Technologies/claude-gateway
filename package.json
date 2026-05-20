@@ -1,0 +1,33 @@
+{
+  "name": "claude-gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/server-filesystem": "^2026.1.14",
+    "@modelcontextprotocol/server-github": "^2025.4.8",
+    "@mozilla/readability": "^0.6.0",
+    "axios": "^1.16.1",
+    "cors": "^2.8.6",
+    "diff-match-patch": "^1.0.5",
+    "dockerode": "^5.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "jsdom": "^29.1.1",
+    "node-pty": "^1.1.0",
+    "openai": "^6.38.0",
+    "simple-git": "^3.36.0",
+    "tree-sitter": "^0.25.0",
+    "tree-sitter-javascript": "^0.25.0",
+    "tree-sitter-python": "^0.25.0",
+    "uuid": "^14.0.0",
+    "winston": "^3.19.0"
+  }
+}
